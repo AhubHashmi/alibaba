@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-logo {
+    width: 150px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 100px;
+    padding: 100px;
+    margin-left: 100px;
+}
+
+.header-searchIcon {
+    padding: 0px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+input[type="submit"] {
+    position: relative;
+    left: -7px;
+    border-radius: 5px 50px 50px 5px;
+    outline: none;
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: 2px solid orange;
+}
+
+input[type="text"] {
+    width: 700px;
+    border: 2px solid orange;
+    border-radius: 50px 5px 5px 50px;
+    outline: orange;
+    padding: 0 25px;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: -80px;
+}
+
+input {
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+input[type="submit"]:hover {
+    background-color: darkorange;
+}
+
+.sm-icons {
+    flex-direction: row;
+}
+
+.sm-icons .nav-link {
+    padding-right: 1em;
+}
